@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Questrial', sans-serif;
+}
+.header{
+    background: linear-gradient(to right, #A5CC82, #00467F);
+    height:40px;
+    opacity:0.9;
+}
+.navmain{
+    background: linear-gradient(to right, #A5CC82, #00467F);
+    height:110px;
+
+}
+.img-fluid{
+     position:relative;
+     /* height:90%; */
+     width:100%;
+    
+}
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+      pointer-events: none;
+  }
+.award{
+    background: rgb(165,204,130);
+background: linear-gradient(90deg, rgba(165,204,130,1) 0%, rgba(0,70,127,1) 100%);
+
+}
+.box{
+    position:absolute;
+    height:33%;
+    background: #ffff;
+   margin-top: -50px; 
+}
+.text{
+    line-height: 1.8;
+      text-align: justify;
+      font-size: 17px;
+      font-family: Questrial;
+      color: #767676;
+}
+.video{
+    height:300px;
+    width: 540px;
+    background: ffff;
+}
+.video  img{
+    align-items: center;
+}
